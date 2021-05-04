@@ -1,15 +1,17 @@
-.page{
-
-    border-color: rebeccapurple; 
-    background-color: lightblue;
-}
-.fat.divider{
+.page {
     border-color: rebeccapurple;
-}
-.list{
+    background-color: lightblue;
+  }
+  
+  .fat.divider {
+    border-color: rebeccapurple;
+  }
+  
+  .list {
     margin-bottom: 20px;
-}
-.page::before {
+  }
+  
+  .page::before {
     content: " ";
     display: block;
     position: absolute;
@@ -21,5 +23,6 @@
     border-width: 1em;
     border-style: solid;
     pointer-events: none;
-    transition: border-color 0.2s
-}
+    transition: border-color 0.2s;
+  }
+  
